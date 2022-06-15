@@ -13,7 +13,6 @@ function scoreTable() {
     output += `<li>${user.name}: ${user.score}</li>`;
   });
   document.querySelector('.score-table').innerHTML = output;
-};
-
+}
 
 export default scoreTable;
