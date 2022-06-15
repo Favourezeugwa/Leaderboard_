@@ -50,8 +50,6 @@ $ open dist/index.html
 - GitHub: [@Favourezeugwa](https://github.com/Favourezeugwa)
 - LinkedIn: [Favour Amarachi Ezeugwa](https://www.linkedin.com/in/favour-amarachi-ezeugwa-a5bb31149/)
 
-## Collaborator
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
