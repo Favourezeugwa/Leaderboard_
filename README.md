@@ -16,8 +16,7 @@ The Leaderboard API is connected in order to implement the actions behind the "R
 
 - Webpack, and served by a Webpack dev server
 - JavaScript(ES6)
-- HTML
-- CSS
+- HTML/CSS
 - Gitflow
 
 ## Getting Started
