@@ -1,1 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: cursive;
+  width: 100%;
+}
+
+main {
+  margin-left: 20px;
+}
+
+h1 {
+  margin: 30px 20px 0 20px;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  width: 100px;
+  cursor: pointer;
+  font-family: cursive;
+  font-size: 16px;
+  background: none;
+}
+
+/* Entire section */
+#leaderboard-container {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin-top: 40px;
+}
+
+/* scores section */
+.recent-scores {
+  display: flex;
+  gap: 20px;
+}
+
+.score-table {
+  margin-top: 30px;
+  border: 2px solid #000;
+}
+
+.score-table li {
+  padding: 5px;
+}
+
+.score-table li:nth-child(even) {
+  background: #f0f0f0;
+}
+
+/* form section */
+#form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+input {
+  padding: 5px;
+  font-family: cursive;
+  font-weight: bold;
+  border: 2px solid #000;
+}
+
+#user-score {
+  margin-top: 20px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+}
