@@ -4,9 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>leaderboard by favour</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <h1></h1>
+    <main>
+      <header>
+        <h1>Leaderboard</h1>
+      </header>
+      <section id="leaderboard-container">
+        <div class="scores">
+          <div class="recent-scores">
+            <h2>Recent scores</h2>
+            <button type="button" class="refresh-btn">Refresh</button>
+          </div>
+          <ul class="score-table">
+            <li>Name1</li>
+            <li>Name2</li>
+            <li>Name3</li>
+          </ul>
+        </div>
+        <div>
+          <div class="add-scores">
+            <h2>Add your Score</h2>
+            <form id="form">
+              <input
+                type="text"
+                id="user-name"
+                placeholder="Your name"
+                name="names"
+                required
+              />
+              <input
+                type="number"
+                id="user-score"
+                placeholder="Your score"
+                name="score"
+                required
+              />
+              <button type="submit" class="submit-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
