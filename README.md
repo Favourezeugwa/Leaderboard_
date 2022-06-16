@@ -8,16 +8,18 @@ The Leaderboard API is connected in order to implement the actions behind the "R
 
 ## Live Demo
 
-[link to live demo](https://favourezeugwa.github.io/TO-DO-LIS/dis/)
+[link to live demo](https://favourezeugwa.github.io/Leaderboard_/dist/)
 
 > Leaderboard\_: For this application the priority is to create a working version of the leaderboard that preserves user input.
 
 ## Built With
 
 - Webpack, and served by a Webpack dev server
-- JavaScript(ES6)
+- JavaScript(ES6 async/await)
 - HTML/CSS
 - Gitflow
+- API
+- Media query
 
 ## Getting Started
 

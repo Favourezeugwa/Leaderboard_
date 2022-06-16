@@ -25,7 +25,7 @@ function scoreTable(scores) {
   document.querySelector('.score-table').innerHTML = output;
 }
 
-// to fetch from the API
+// to fetch added score from the API
 const fetchScore = async () => {
   await fetch(addScoreURL)
     .then((response) => response.json())
@@ -37,7 +37,6 @@ const addScore = async (user, score) => {
   await fetch(addScoreURL, {
     method: 'POST',
     headers: {
-      'Access-Control-Allow-Origin': '*',
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
