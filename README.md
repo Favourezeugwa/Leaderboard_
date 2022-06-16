@@ -8,7 +8,7 @@ The Leaderboard API is connected in order to implement the actions behind the "R
 
 ## Live Demo
 
-[link to live demo](https://favourezeugwa.github.io/Leaderboard_/dist/)
+[link to live demo](https://favourezeugwa.github.io/Leaderboard_/)
 
 > Leaderboard\_: For this application the priority is to create a working version of the leaderboard that preserves user input.
 
