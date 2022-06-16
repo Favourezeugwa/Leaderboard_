@@ -27,18 +27,16 @@ button {
   cursor: pointer;
   font-family: cursive;
   font-size: 16px;
-  background: none;
-  height: fit-content;
   margin: auto;
   background: #352f44;
   color: #fff;
-  box-shadow: 2px 2px 0px 1px #211f27;
+  box-shadow: 2px 2px 0 1px #211f27;
 }
 
 button:hover {
   color: #000;
   background-color: #fff;
-  box-shadow: 2px 2px 0px 1px #000;
+  box-shadow: 2px 2px 0 1px #000;
 }
 
 /* Entire section */
@@ -55,6 +53,7 @@ button:hover {
   flex-direction: column;
   width: 400px;
 }
+
 .recent-scores {
   display: flex;
   gap: 20px;
@@ -113,7 +112,7 @@ footer {
     color: #fff;
     background-color: #352f44;
     padding: 10px 5px 10px 20px;
-    margin: 0px;
+    margin: 0;
     font-size: 35px;
   }
 
@@ -124,7 +123,6 @@ footer {
   button {
     width: 75px;
     font-size: 12px;
-    height: fit-content;
     margin-left: 80px;
     margin-top: 6px;
   }
@@ -171,7 +169,7 @@ footer {
   }
 
   footer {
-    font: 12px;
+    font-size: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
   }
