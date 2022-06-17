@@ -39,6 +39,20 @@ button:hover {
   box-shadow: 2px 2px 0 1px #000;
 }
 
+.heading-bg {
+  background: url(./images/whiteartbg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
 /* Entire section */
 #leaderboard-container {
   display: flex;
@@ -68,8 +82,8 @@ button:hover {
   padding: 5px;
 }
 
-.score-table li:nth-child(even) {
-  background: #f0f0f0a2;
+.score-table li:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.651);
 }
 
 /* form section */
@@ -100,10 +114,9 @@ footer {
   color: #fff;
   height: 40px;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   background-color: #352f44;
-  border: 2px solid #000;
 }
 
 @media only screen and (max-width: 768px) {
