@@ -1,5 +1,6 @@
 import './style.css';
-import { addScore, fetchScore } from './modules/structure.js';
+import addScore from './modules/addScore.js';
+import fetchScore from './modules/fetchScore.js';
 
 fetchScore();
 
