@@ -6,10 +6,6 @@
 
 > The Leaderboard API is connected in order to implement the actions behind the "Refresh" and "Submit" buttons. In the last step, async & await is used to send and receive data from API.
 
-## Live Demo
-
-[link to live demo](https://favourezeugwa.github.io/Leaderboard_/)
-
 ## Built With
 
 - Webpack, and served by a Webpack dev server
@@ -18,6 +14,16 @@
 - Gitflow
 - API
 - Media query
+
+## Screenshot
+
+![screenshot](./src/images/leaderboard.png)
+
+
+## Live Demo
+
+[link to live demo](https://favourezeugwa.github.io/Leaderboard_/)
+
 
 ## Getting Started
 
