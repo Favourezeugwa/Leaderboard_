@@ -42,7 +42,6 @@ button:hover {
 .heading-bg {
   background: url(./images/whiteartbg.jpg);
   background-repeat: no-repeat;
-  /* background-position: center; */
   background-size: cover;
   opacity: 0.8;
   height: 100%;
