@@ -2,15 +2,16 @@
 
 # Leaderboard\_
 
-The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved in the external Leaderboard API service.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved in the external Leaderboard API service.
+> The Leaderboard API is connected in order to implement the actions behind the "Refresh" and "Submit" buttons. In the last step, async & await is used to send and receive data from API.
 
-The Leaderboard API is connected in order to implement the actions behind the "Refresh" and "Submit" buttons. In the last step, async & await is used to send and receive data from API.
+## Screenshot
+
+> ![screenshot](./src/images/leaderboard.png)
 
 ## Live Demo
 
 [link to live demo](https://favourezeugwa.github.io/Leaderboard_/)
-
-> Leaderboard\_: For this application the priority is to create a working version of the leaderboard that preserves user input.
 
 ## Built With
 
@@ -25,14 +26,17 @@ The Leaderboard API is connected in order to implement the actions behind the "R
 
 ### Clone this repository
 
-```bash
+```
+git bash
 $ git clone git@github.com:Favourezeugwa/Leaderboard_.git
 $ cd Leaderboard_
+$ code .
 ```
 
 ### Run project
 
-```bash
+```
+VS-code terminal
 $ npm install
 $ npm run build
 $ npm run start # this will enable webpack to watch for your changes in code
@@ -40,7 +44,8 @@ $ npm run start # this will enable webpack to watch for your changes in code
 
 ### Open page in browser
 
-```bash
+```
+VS-code terminal
 $ open dist/index.html
 ```
 
@@ -50,10 +55,12 @@ $ open dist/index.html
 
 - GitHub: [@Favourezeugwa](https://github.com/Favourezeugwa)
 - LinkedIn: [Favour Amarachi Ezeugwa](https://www.linkedin.com/in/favour-amarachi-ezeugwa-a5bb31149/)
+- Twitter:[@Favour_ezeugwa](https://twitter.com/Favour_ezeugwa)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Favourezeugwa/Leaderboard_/issues)
 
 ## Show your support
 
